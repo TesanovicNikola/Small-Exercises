@@ -72,10 +72,7 @@ is_time <- function(A,B,C,D){
     
   }
   
-  } else {
-  
-    cat("No valid times found 0")
-}
+  } 
   
 }
 
