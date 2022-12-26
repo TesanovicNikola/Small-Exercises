@@ -15,7 +15,7 @@ is_time <- function(A,B,C,D){
   all_possibilities <- unique.data.frame(all_possibilities)
   all_possibilities <- as.data.frame(all_possibilities)
   
-  #Doing additional filtering, now i have every single possibility. I will filter out all the ones that are from the start no possible
+  #Doing additional filtering, now i have every single possibility. I will filter out all the ones that are from the start not possible
   #Digital clock first 2 numbers are hours, last two are minutes. So for hours the first number can be a 0,1,2 while the second one can
   #can be any number from 0 to 9
   
